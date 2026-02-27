@@ -1,0 +1,14 @@
+app:
+  version: "@project.version@"
+
+spring:
+  profiles:
+    active: "@spring.profiles.active@"
+  output:
+    ansi:
+      enabled: always
+
+server:
+  port: 8888
+  servlet:
+    context-path: /api/v1
